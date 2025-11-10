@@ -27,6 +27,7 @@ Data Prep	Power BI Power Query
 Documentation	Markdown, GitHub
 
 Project Steps
+
 1️. Data Loading into PostgreSQL
 Imported the raw CSV file into PostgreSQL database.
 Created the flights table, defined appropriate data types and constraints.
