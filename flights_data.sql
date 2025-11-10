@@ -110,11 +110,6 @@ ORDER BY avg_arr_delay DESC;
 -- Frontier airlines has the most avg arrival delay(minutes) whereas 
 -- Alaska Airlines Inc. has the least avg arrival delay.
 
-SELECT origin, dest, COUNT(*) AS most_flights
-FROM flights
-GROUP BY origin, dest
-ORDER BY most_flights DESC;
--- Here we can see that New York to Los Angeles is the most busiest route.
 
 SELECT DATE_TRUNC('month', time_hour) AS months,
 	   COUNT(*) AS total_flights
@@ -207,6 +202,7 @@ FROM flights
 WHERE distance IS NOT NULL
 AND arr_delay IS NOT NULL;
 -- As we can see that the correlation between distance and delay is symmetrical i.e ~0 .
+
 
 
 
