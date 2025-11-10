@@ -32,6 +32,7 @@ Project Steps
 Imported the raw CSV file into PostgreSQL database.
 Created the flights table, defined appropriate data types and constraints.
 
+
 2. Data Cleaning & Pre-processing
 Handled missing values, outliers, and inconsistent data.
 Converted date/time columns into proper formats.
